@@ -1,0 +1,6 @@
+-- Pattern 01 - March 22 2026
+-- Foundation: kick/snare, hh, pentatonic arpy melody
+
+d1 $ sound "~ bd ~ bd"
+d2 $ sound "hh*16"
+d3 $ every 4 (fast 2) $ n "1 ~ 6 ~ 9 5 ~ 7" # sound "arpy"
